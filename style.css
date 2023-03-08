@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.group-input{
+    width: 300px;
+}
+
+.btn{
+    background-color: white;
+    border: solid 1px gray; 
+    padding: 3px;
+}
+
+.container{
+    background-color: green;
+    padding: 100px 0;
+}
+
+#second-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(43px * 10);
+    margin: 0 auto;
+
+}
+
+#second-container > div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.blue{
+    background-color: rgb(85, 175, 202);
+}
